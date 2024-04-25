@@ -98,11 +98,11 @@ In the demonstration below, the chatroom shows a "conversation" using the path q
 
 The first image and second image have the same behaviors as the parameters are passed through the methods in the code. Lets break it down: 
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 Like mentioned above, ``handleRequest(URI url)`` takes the url ``http://localhost:4000/add-message?s=America%20ya&user=Ayumu_Kasuga`` , getting the parameters message string ``"America ya"`` and user ``"Ayumu_Kasuga"`` due to ``/add-message``. The message and user is appended appropriately to ``ArrayList`` ``messages`` and ``users``  respectively then processed by ``chatConcat`` which returns a string to update the ``String`` ``chat`` variable, which was previously empty, with ``Ayumu_Kasuga : America ya\n``.
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 Similarly again ``handleRequest(URI url)`` takes the url ``localhost:4000/add-message?s=Hallo :3&user=Chihiro`` , getting the parameters message string ``"Hallo :3"`` and user ``"Chihiro"`` due to ``/add-message``. The message and user is appended appropriately to ``ArrayList``  ``messages`` and ``users`` respectively then processed by ``chatConcat`` which returns a string to update the ``String`` ``chat`` variable which replaces the string ``Ayumu_Kasuga : America ya\n`` with ``Ayumu_Kasuga : America ya\nChihiro : Hallo :3`` 
 
@@ -118,9 +118,9 @@ Similarly again ``handleRequest(URI url)`` takes the url ``localhost:4000/add-me
 This week we learned about SSH keys which can make the secure shell signin alot smoother. This allows us to login by leaving a "piece" of us to the remove server (the public key) which will get matched to the private key on our local device. This will tell the remote server that this is , in fact, us and to let us in!
 
 My public key in ieng6 is stored here in authorized key file: 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 Whereas my private key on my local is stored here:
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 While I cant show my actual key, these two combined allow me to sign in without a password to ieng6! 
 
