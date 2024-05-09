@@ -210,9 +210,9 @@ Found every file (cut off) in my ``Documents/`` folder containing "the". By usin
 Source: [GeeksforGeeks](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
 
 ### Sources
-- https://www.redhat.com/sysadmin/linux-find-command
+- Redhat: https://www.redhat.com/sysadmin/linux-find-command
   - Recursive find
-- https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
+- Geeks for Geeks: https://www.geeksforgeeks.org/find-command-in-linux-with-examples/
   - Find and execute
   - Finding by modification date
   - Finding by content 
