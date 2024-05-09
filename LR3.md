@@ -8,17 +8,6 @@ These past weeks we have been focusing on debugging and testing, with a concentr
 ## Bugs and writing tests
 Writing tests and debugging is an important part of the process of development, after all, we are not perfect and we need to know how to anticipate base and edge cases when writing robust code. In this section I will recap this past weeks lab as an example and provide cases of how thorough JUnit testing can help detect bugs and errors.
 
-Choose one of the bugs from week 4's lab. 
-
-Provide:
-
-    A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown).
-    An input that doesn't induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown).
-    The symptom, as the output of running the two tests above (provide it as a screenshot -- one test should pass, one test should fail).
-    The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown).
-    Briefly describe (2-3 sentences) why the fix addresses the issue.
-
-
 ### The original code 
 To get started, lets take a look at the code from week 4's lab. 
 
