@@ -20,40 +20,48 @@ Starting the clock :
 
 Since I have used this command before, I accessed my history for a quick retype using: 
 ``<Ctrl> + R + ssh <Enter>`` 
+
 ![alt text](images/1LR4.png)
 
 2. Clone the SSH url 
 
 Using the same technique as above I did the same with git clone only typing in the bare minimum for it to be retrieved up from my history: ``<Ctrl> + R + git cl <Enter>`` 
+
 ![alt text](images/2LR4.png)
 
 This was fairly short so I used the standard cd command with the bare minimum to get lab7 to autofill from the working directory:  ``cd la <tab>``
+
 ![alt text](images/3LR4.png)
 
 3. Compile + Run tests 
 
 To compile was a straightforward process, doing the same technique above to do the bare minimum, then appending ``.java`` because tabbing only brings up the filename: 
 ``javac L <Tab> .java <Enter>``
+
 ![alt text](images/4LR4.png)
 
 I found a shell script in the directory to run my tests for me so I ran the shell script using ``bash`` and only added what was necessary for it to autocomplete: 
 ``bash te <tab> <Enter>``
+
 ![alt text](image.png)
 
 4. Edit code
 
 As writing it out was rather short, I wrote out ``vim`` and the bare minimum for autocomplete: 
 ``vim Lis <tab> <Enter>``
+
 ![alt text](images/7LR4.png)
 
 I did though have a bit of an advantage here as I knew exactly where the line that was causing errors was. Given that vim lets me use my mouse, I accessed the line that way instead of arrow keys which I did in my initial run. I edited the line using insert mode, made the edit, and wrote out and saved: 
 ``<mouse> i <backspace> 2 <esc> :wq <Enter>``
+
 ![alt text](images/8LR4.png)
 
 5. Recompile 
 
 To recompile, since I used the same method as step 3, only putting in the bare minimum necessary for autocomplete: 
 ``javac L <Tab> .java <Enter>``
+
 ![alt text](images/9LR4.png)
 I figure it may be more efficient to press up until it goes to when I first wrote this out, but I figured due to my propensity for making weird mistakes this was a better way.
 
@@ -61,12 +69,14 @@ I figure it may be more efficient to press up until it goes to when I first wrot
 
 Used same command as step 3, again pulling up the shell script with autocomplete: 
 ``bash te <tab> <Enter>``
+
 ![alt text](images/10LR4.png)
 
 7. Commit the code back to GH
 
 Seeing as I've committed before in my first run, I once again use the history to complete my autofill: 
 ``<Ctrl> + R + git co <Enter>`` 
+
 ![alt text](image-1.png)
 
 End. Time: 49.1 seconds 
