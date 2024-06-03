@@ -8,12 +8,9 @@ In this section I will be simulating a debugging scenario to showcase what I hav
 <table>
   <tr>
     <td style="background-color: #e6e6fa; color: black;">
-    
-**Strange I/O bug for factorial function-- help!**   
-Hi y'all! 
-I'm working on a Java project that calculates the factorial of a number using a recursive method however when I run the program it returns the wrong results for certain inputs. 
-
-For example, when I input 13, it returns 1932053504 instead of 6227020800 (expected). I attached a screenshot below of my terminal output and the Java code-- I suspect the issue might be related to how the recursion is handled but I'm not too sure... Any help is much appreciated!
+      <strong>Strange I/O bug for factorial function-- help!</strong><br><br>
+      Hi y'all! I'm working on a Java project that calculates the factorial of a number using a recursive method. However, when I run the program it returns the wrong results for certain inputs.<br><br>
+      For example, when I input 13, it returns 1932053504 instead of 6227020800 (expected). I attached a screenshot below of my terminal output and the Java code-- I suspect the issue might be related to how the recursion is handled but I'm not too sure... Any help is much appreciated!<br><br>
 
 ```java
 public class Factorial{
@@ -40,7 +37,6 @@ java Factorial $1
 ./run_factorial.sh 13
 1932053504
 ```
-
 </td>
   </tr>
 </table>
@@ -49,16 +45,15 @@ java Factorial $1
 <table>
   <tr>
     <td style="background-color: #d4f1c5; color: black; padding: 10px;">
-    Hi! Just by skimming it seems like the issue is related to the input itself but lets use JDB to figure this out! Set up a breakpoint in the factorial method and let me know what you see? 
-</td>
+      Hi! Just by skimming it seems like the issue is related to the input itself but let's use JDB to figure this out! Set up a breakpoint in the factorial method and let me know what you see?
+    </td>
   </tr>
 </table>
-
 
 <table>
   <tr>
     <td style="background-color: #e6e6fa; color: black;">
-Okay sounds good! Using JDB I set the following breakpoints: 
+      Okay sounds good! Using JDB I set the following breakpoints: 
 
 ```bash
 javac -g Factorial.java
@@ -115,8 +110,8 @@ I see that at the values are consistent with a factorial up until ```factorial(1
 <table>
   <tr>
     <td style="background-color: #d4f1c5; color: black; padding: 10px;">
-    Great first steps so far! To guide you in the right direction, what datatype is your input? Be mindful of the accepted values of this datatype
-</td>
+      Great first steps so far! To guide you in the right direction, what datatype is your input? Be mindful of the accepted values of this datatype.
+    </td>
   </tr>
 </table>
 
