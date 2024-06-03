@@ -9,7 +9,6 @@ In this section I will be simulating a debugging scenario to showcase what I hav
   <tr>
     <td style="background-color: #e6e6fa; color: black;">
 
-**Strange I/O bug for factorial function-- help!**   
 Hi y'all! 
 I'm working on a Java project that calculates the factorial of a number using a recursive method however when I run the program it returns the wrong results for certain inputs. 
 
