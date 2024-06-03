@@ -8,13 +8,13 @@ In this section I will be simulating a debugging scenario to showcase what I hav
 <table>
   <tr>
     <td style="background-color: #e6e6fa; color: black;">
-    
+
 **Strange I/O bug for factorial function-- help!**   
 Hi y'all! 
 I'm working on a Java project that calculates the factorial of a number using a recursive method however when I run the program it returns the wrong results for certain inputs. 
 
 For example, when I input 13, it returns 1932053504 instead of 6227020800 (expected). I attached a screenshot below of my terminal output and the Java code-- I suspect the issue might be related to how the recursion is handled but I'm not too sure... Any help is much appreciated!
-
+<br><br>
 </td>
   </tr>
 </table>
@@ -136,10 +136,6 @@ factorial(11) = 39916800
 factorial(12) = 479001600
 factorial(13) = 1932053504
 ```
-
-</td>
-  </tr>
-</table>
 
 <table>
   <tr>
